@@ -5,7 +5,7 @@ This repository provides the necessary resources to reproduce the heatmaps prese
 The source domain in transfer learning provides essential features that enable effective and data-efficient learning on the target task. Typically, the finetuning process does not explicitly account for how the knowledge about the source domain interacts with the target task. We demonstrate how that knowledge can interfere with the target task leading to negative transfer. Specifically, certain memories about the source domain can distract the finetuned model in certain inputs. We provide a method to analyze those memories in typical foundational models and to surface potential failure cases of those models. This analysis helps model developers explore remedies for those failure cases, such as expanding the training data or adapting the training objective.
 
 ## Requirements
-- Python 3.7
+- Python 3.11
 - Jupyter Notebook
 - PyTorch
 - torchvision
